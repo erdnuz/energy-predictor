@@ -1,0 +1,2 @@
+[console_scripts]
+yourapp = your_project.main:main

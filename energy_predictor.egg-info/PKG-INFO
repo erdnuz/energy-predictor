@@ -1,0 +1,47 @@
+Metadata-Version: 2.4
+Name: energy-predictor
+Version: 0.1.0
+Summary: A tool to predict city-level energy consumption using temporal and weather data.
+Author-email: Arden McArthur <amcar036@uOttawa.ca>
+License: MIT
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+Requires-Dist: numpy>=1.24
+Requires-Dist: pandas
+Requires-Dist: scikit-learn
+Requires-Dist: matplotlib
+
+# Energy Predictor
+
+A Python tool to predict city-level energy consumption using temporal and weather data.
+
+## Installation
+
+1. Clone the repository
+   git clone https://github.com/username/energy-predictor.git
+   cd energy-predictor
+
+2. Create a virtual environment
+   python -m venv venv
+   source venv/bin/activate   # On Windows: venv\Scripts\activate
+
+3. Install the package in editable mode
+   pip install -e .
+
+This will install all required dependencies and make the `energy-predict` command available.
+
+## Running the Application
+
+Once installed, you can run the app with:
+   energy-predict
+
+This command runs the main() function from energy_predictor/main.py, which demonstrates the full application.
+
+## Project Structure
+
+energy-predictor/
+├── pyproject.toml         # Project metadata & dependencies
+├── README.md              # Setup and usage instructions
+├── energy_predictor/      # Main source code
+│   ├── __init__.py
+│   └── main.py            # Entry point
