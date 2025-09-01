@@ -5,17 +5,26 @@ A Python tool to predict city-level energy consumption using temporal and weathe
 ## Installation
 
 1. Clone the repository:
-    git clone https://github.com/username/energy-predictor.git
-    cd energy-predictor
+
+```bash
+git clone https://github.com/username/energy-predictor.git
+cd energy-predictor
+```
 
 
 2. Create a virtual environment:
-    python -m venv venv
-    source venv/bin/activate # On Windows: venv\Scripts\activate
+
+```bash
+python -m venv venv
+source venv/bin/activate # On Windows: venv\Scripts\activate
+```
 
 
 3. Install the package in editable mode:
-    pip install -e .
+
+```bash
+pip install -e .
+```
 
 
 This will install all required dependencies and make the `energy-predict` command available.
@@ -29,17 +38,21 @@ Once installed, run the app with:
 This executes the `main()` function in `energy_predictor/main.py`, which demonstrates the full application.
 
 ## Project Structure
+```text
 energy-predictor/
-├── pyproject.toml         # Project metadata & dependencies
-├── README.md              # Setup and usage instructions
-├── REPORT.md              # Methodology and findings
-├── energy_predictor/      # Main source code
-│   ├── __init__.py
-│   ├── data_loader.py
-│   ├── evaluation.py
-│   ├── models.py
-│   ├── preprocessing.py
-│   └── main.py            # Entry point
+├── pyproject.toml        # Project metadata & dependencies
+├── README.md             # Setup and usage instructions
+├── REPORT.md             # Methodology and findings
+├── energy_predictor/     # Main source code
+│ ├── init.py
+│ ├── data_loader.py
+│ ├── evaluation.py
+│ ├── models.py
+│ ├── preprocessing.py
+│ └── main.py             # Entry point
+```
+
+
 
 ## Data Source
 
