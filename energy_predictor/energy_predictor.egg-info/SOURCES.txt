@@ -1,9 +1,0 @@
-README.md
-pyproject.toml
-src/main.py
-src/energy_predictor.egg-info/PKG-INFO
-src/energy_predictor.egg-info/SOURCES.txt
-src/energy_predictor.egg-info/dependency_links.txt
-src/energy_predictor.egg-info/entry_points.txt
-src/energy_predictor.egg-info/requires.txt
-src/energy_predictor.egg-info/top_level.txt
