@@ -1,2 +1,0 @@
-[console_scripts]
-energy-predict = energy_predictor.main:main
